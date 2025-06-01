@@ -8,7 +8,7 @@ const Posts: React.FC<PostProps[]> = ({ posts }) => {
     <div
     className="flex flex-col h-screen">
         <Header />
-        <main className="p-4">
+        <div className="p-4">
             <div className="flex justify-between">
                 <h1 className="text-2x1 font-semibold">Post Content</h1>
                 <button className="bg-blue-700 px-4 py-2 rounded-full text-white">Add Post</button>
@@ -20,7 +20,7 @@ const Posts: React.FC<PostProps[]> = ({ posts }) => {
                     ))
                 }
             </div>
-        </main>
+        </div>
     </div>
   );
 };
